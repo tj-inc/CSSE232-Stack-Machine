@@ -33,6 +33,10 @@ module register16b_tb;
 	// Outputs
 	wire [15:0] dout;
 
+	// Parameters
+	parameter PERIOD = 20;
+	parameter HALF_PERIOD = 10;
+
 	// Instantiate the Unit Under Test (UUT)
 	register16b uut (
 		.din(din), 
@@ -44,8 +48,8 @@ module register16b_tb;
 	
 	initial begin
 		forever begin
-			#10 clk = 0;
-			#10 clk = 1;
+			#HALF_PERIOD clk = 0;
+			#HALF_PERIOD clk = 1;
 		end
 	end
 
@@ -60,29 +64,29 @@ module register16b_tb;
         
 		// Add stimulus here
 		din = 10;
-		#10;
+		#HALF_PERIOD;
 		if (dout != 0) begin
 			$stop;
 		end;
 		we = 1;
-		#20;
+		#PERIOD;
 		if (dout != 10) begin
 			$stop;
 		end;
 		we = 0;
 		din = 30;
-		#20;
+		#PERIOD;
 		if (dout != 10) begin
 			$stop;
 		end
 		we = 1;
 		reset = 1;
-		#20;
+		#PERIOD;
 		if (dout != 0) begin
 			$stop;
 		end
 		reset = 0;
-		#20;
+		#PERIOD;
 		if (dout != 30) begin
 			$stop;
 		end

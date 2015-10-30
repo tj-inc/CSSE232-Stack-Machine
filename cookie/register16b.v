@@ -26,132 +26,133 @@ module register16b(
     output [15:0] dout
     );
 	 
-	 FDRE bit0(
+	 FDCE bit0(
 		.D(din[0]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[0])
 	 );
-	 
-	 FDRE bit1(
+
+	 	 
+	 FDCE bit1(
 		.D(din[1]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[1])
 	 );
 	 
-	 FDRE bit2(
+	 FDCE bit2(
 		.D(din[2]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[2])
 	 );
 	 
-	 FDRE bit3(
+	 FDCE bit3(
 		.D(din[3]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[3])
 	 );
 	 
-	 FDRE bit4(
+	 FDCE bit4(
 		.D(din[4]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[4])
 	 );
 	 
-	 FDRE bit5(
+	 FDCE bit5(
 		.D(din[5]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[5])
 	 );
 	 
-	 FDRE bit6(
+	 FDCE bit6(
 		.D(din[6]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[6])
 	 );
 	 
-	 FDRE bit7(
+	 FDCE bit7(
 		.D(din[7]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[7])
 	 );
 	 
-	 FDRE bit8(
+	 FDCE bit8(
 		.D(din[8]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[8])
 	 );
 	 
-	 FDRE bit9(
+	 FDCE bit9(
 		.D(din[9]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[9])
 	 );
 	 
-	 FDRE bit10(
+	 FDCE bit10(
 		.D(din[10]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[10])
 	 );
 	 
-	 FDRE bit11(
+	 FDCE bit11(
 		.D(din[11]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[11])
 	 );
 	 
-	 FDRE bit12(
+	 FDCE bit12(
 		.D(din[12]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[12])
 	 );
 	 
-	 FDRE bit13(
+	 FDCE bit13(
 		.D(din[13]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[13])
 	 );
 	 
-	 FDRE bit14(
+	 FDCE bit14(
 		.D(din[14]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[14])
 	 );
 	 
-	 FDRE bit15(
+	 FDCE bit15(
 		.D(din[15]),
 		.CE(we),
 		.C(clk),
-		.R(reset),
+		.CLR(reset),
 		.Q(dout[15])
 	 );
-	 
+
 endmodule

@@ -7,29 +7,36 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/datamemory_block C:|MEGA|RHIT|CSSE232|Final Project Git|cookie|datamemory_block.v</ClosedNode>
+         <ClosedNode>/datamemory_block14b C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|datamemory_block14b.v</ClosedNode>
+         <ClosedNode>/registerfile C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|registerfile.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>datamemory_block14b (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/datamemory_block14b.v)</SelectedItem>
+         <SelectedItem>controlunit (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/controlunit.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000163000000020000000000000000000000000200000064ffffffff000000810000000300000002000001630000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000014a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000014a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>datamemory_block14b (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/datamemory_block14b.v)</CurrentItem>
+      <CurrentItem>controlunit (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/controlunit.v)</CurrentItem>
    </ItemView>
-   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Design Utilities</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Design Utilities</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -38,74 +45,41 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002e3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000002280000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff000000810000000000000004000000990000000100000000000000cc00000001000000000000005d0000000100000000000001100000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>memory_block14b.xco</CurrentItem>
+      <CurrentItem>datamemory_block14b.v</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
       </ClosedNodes>
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>register16b.v</CurrentItem>
-   </ItemView>
-   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Post-Route Simulation</CurrentView>
-   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
-      <ClosedNodes>
-         <ClosedNodesVersion>1</ClosedNodesVersion>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>CORE Generator</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>CORE Generator</CurrentItem>
-   </ItemView>
-   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
-      <ClosedNodes>
-         <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Configure Target Device</ClosedNode>
-         <ClosedNode>Design Utilities</ClosedNode>
-         <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>User Constraints</ClosedNode>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>Synthesize - XST</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Synthesize - XST</CurrentItem>
+      <CurrentItem>work</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/datamemory_block C:|MEGA|RHIT|CSSE232|Final Project Git|cookie|datamemory_block.v</ClosedNode>
-         <ClosedNode>/datamemory_block14b C:|MEGA|RHIT|CSSE232|Final Project Git|cookie|datamemory_block14b.v</ClosedNode>
-         <ClosedNode>/datamemory_block14b_tb C:|MEGA|RHIT|CSSE232|Final Project Git|cookie|datamemory_block14b_tb.v/uut - datamemory_block14b</ClosedNode>
          <ClosedNode>/datamemory_block14b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|datamemory_block14b_tb.v</ClosedNode>
-         <ClosedNode>/datamemory_distributed C:|MEGA|RHIT|CSSE232|Final Project Git|cookie|datamemory_distributed.v</ClosedNode>
-         <ClosedNode>/memory_distributed_tb C:|MEGA|RHIT|CSSE232|Final Project Git|cookie|memory_distributed_tb.v</ClosedNode>
+         <ClosedNode>/mux2_16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|mux2_16b_tb.v</ClosedNode>
+         <ClosedNode>/mux4_16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|mux4_16b_tb.v</ClosedNode>
+         <ClosedNode>/mux8_16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|mux8_16b_tb.v</ClosedNode>
          <ClosedNode>/register16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|register16b_tb.v</ClosedNode>
-         <ClosedNode>/registerfile C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|registerfile.v</ClosedNode>
+         <ClosedNode>/registerfile_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|registerfile_tb.v</ClosedNode>
          <ClosedNode>/subone14b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|subone14b_tb.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>datamemory_block14b_tb (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/datamemory_block14b_tb.v)</SelectedItem>
+         <SelectedItem>alu16b_tb (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/alu16b_tb.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000016a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000016a0000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>datamemory_block14b_tb (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/datamemory_block14b_tb.v)</CurrentItem>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>alu16b_tb (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/alu16b_tb.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -134,25 +108,47 @@
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
-   <ItemView engineview="PostRouteSim" guiview="Source" compilemode="AutoCompile" >
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
-         <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/datamemory_block14b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|datamemory_block14b_tb.v</ClosedNode>
-         <ClosedNode>/register16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|register16b_tb.v</ClosedNode>
-         <ClosedNode>/subone14b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|subone14b_tb.v</ClosedNode>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>datamemory_block14b_tb (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/datamemory_block14b_tb.v)</SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/alu16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|alu16b_tb.v</ClosedNode>
+         <ClosedNode>/datamemory_block14b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|datamemory_block14b_tb.v</ClosedNode>
+         <ClosedNode>/mux2_16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|mux2_16b_tb.v</ClosedNode>
+         <ClosedNode>/mux4_16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|mux4_16b_tb.v</ClosedNode>
+         <ClosedNode>/mux8_16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|mux8_16b_tb.v</ClosedNode>
+         <ClosedNode>/register16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|register16b_tb.v</ClosedNode>
+         <ClosedNode>/registerfile_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|registerfile_tb.v</ClosedNode>
+         <ClosedNode>/subone14b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|subone14b_tb.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uut - sign_ext_11b_16b</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >7</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000016a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000016a0000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>datamemory_block14b_tb (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/datamemory_block14b_tb.v)</CurrentItem>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>uut - sign_ext_11b_16b</CurrentItem>
    </ItemView>
    <ItemView engineview="PostRouteSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem/>
@@ -168,65 +164,36 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Simulate Post-Place &amp; Route Model</SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Simulate Post-Place &amp; Route Model</CurrentItem>
+      <CurrentItem/>
    </ItemView>
-   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
       <ClosedNodes>
-         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem>memory_block14b.xco (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/ipcore_dir/memory_block14b.xco)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014c000000020000000000000000000000000000000064ffffffff000000810000000000000002000000dc0000000100000000000000700000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem>memory_block14b.xco (C:/MEGA/RHIT/CSSE232/Final Project/XilinxProject/cookie/ipcore_dir/memory_block14b.xco)</CurrentItem>
    </ItemView>
-   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" />
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
-   </ItemView>
-   <ItemView engineview="PostTransSim" guiview="Source" compilemode="AutoCompile" >
-      <ClosedNodes>
-         <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/datamemory_block14b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|datamemory_block14b_tb.v</ClosedNode>
-         <ClosedNode>/register16b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|register16b_tb.v</ClosedNode>
-         <ClosedNode>/subone14b_tb C:|MEGA|RHIT|CSSE232|Final Project|XilinxProject|cookie|subone14b_tb.v</ClosedNode>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>Unassigned User Library Modules</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000016a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000016a0000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Unassigned User Library Modules</CurrentItem>
-   </ItemView>
-   <ItemView engineview="PostTransSim" sourcetype="" guiview="Process" >
-      <ClosedNodes>
-         <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Design Utilities</ClosedNode>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem/>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem/>
    </ItemView>
